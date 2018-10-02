@@ -36,7 +36,8 @@ main {
   border-radius: 5px;
 
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+ 
 }
 
 .card_mynd img {
@@ -66,9 +67,13 @@ main {
   max-height: 300px;
 }
 
-.card_flex--wrapper {
+.card_wrapper {
   display: flex;
   margin-bottom: 10px;
+  min-height: 0px;
+  max-height: 300px;
+  overflow-y: auto;
+  flex:1;
 }
 
 .card_list {

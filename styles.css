@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 20px;
+}
+
+.cards {
+  background-color: #eee;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background: #fff;
+  max-width: 470px;
+  max-height: 300px;
+  margin-bottom: 10px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_mynd img {
+  display: flex;
+  align-items: baseline;
+
+  width: 150px;
+  height: auto;
+  padding:5px;
+}
+
+.card_fyrirsogn {
+  font-size: 22px;
+  line-height: 22px;
+  padding: 5px;
+  word-break: break-word;
+}
+
+.card_texti {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 5px;
+
+  word-break: break-word;
+  overflow-y: auto;
+  min-height: 0px;
+  max-height: 300px;
+}
+
+.card_flex--wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.card_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-weight: bold;
+  padding: 5px;
+  justify-content: baseline;
+}
+
+li {
+  padding: 5px;
+}
